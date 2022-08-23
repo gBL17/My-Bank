@@ -1,7 +1,7 @@
-<app-new-transfer
-  (aoTransferir)="transferir($event)"
-></app-new-transfer>
-
-<app-extrato></app-extrato>
-
-
+<header>
+  <a routerLink="extrato">MyBank</a>
+  <a routerLink="nova-transferencia" routerLinkActive="ativo">Nova Transferencia</a>
+</header>
+<main>
+  <router-outlet></router-outlet>
+</main>
